@@ -1,0 +1,146 @@
+h1 {
+    color: grey;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    }
+
+    .youtube {
+        color: white;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: red;
+        text-align: center;
+    }
+
+    .parrafo-youtube  {
+        color: red;
+        font-size:14px;
+        font-family:sans-serif;
+        font-weight: normal;
+    }
+
+    .link-youtube {
+        color: red;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-size: 16px;
+        display: inline;
+        text-decoration: none;
+    }
+
+
+
+    .facebook {
+        color: white;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: blue;
+        text-align: center;
+    }
+
+
+
+    .parrafo-facebook {
+        color: blue;
+        font-size: 14px;
+        font-family:sans-serif;
+        font-weight: normal;
+    }
+
+    .link-facebook {
+        color: blue;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-size: 16px;
+        display: inline;
+        text-decoration: none;
+    }
+
+    .instagram {
+        color: white;
+        background: linear-gradient(rgb(209, 141, 14),rgb(215, 10, 126));
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: white;
+        text-align: center;
+    }
+
+    .instagram-p {
+        font-size: 14px;
+        font-family:sans-serif;
+        font-weight: normal;
+    }
+
+    .link-instagram {
+        color: white;
+        background: linear-gradient(rgb(209, 141, 14),rgb(215, 10, 126));
+        font-size: 16px;
+        display: inline;
+    }
+
+    .twitter {
+        color:white;
+        font-size: 25px;
+        font-family: Arial;
+        font-weight: bold;
+        background-color: black;
+        text-align: center;
+
+    }
+ 
+    .twitter-p {
+        font-size: 14px;
+        font-family:sans-serif;
+        font-weight: normal;
+    }
+  
+    .link-x {
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-size: 16px;
+        display: inline;
+        text-decoration: none;
+
+    }
+
+    .gmail {
+        color: white;
+        background: linear-gradient(to left ,#4285f4, #34A853, #fbdc85, #ea4335);
+        font-size: 25px;
+        text-align: center;
+
+    }
+ 
+    .gmail-p {
+        font-size: 14px;
+        font-family:sans-serif;
+        font-weight: normal;
+    }
+
+    .link-gmail {
+        color: white;
+        background: linear-gradient(to left ,#4285f4, #34A853, #fbdc85, #ea4335);
+        font-size: 16px;
+        display: inline;
+    }
+
+
+
+
+
+
+
+
+    ul {
+        list-style-type: none;
+    }
+
