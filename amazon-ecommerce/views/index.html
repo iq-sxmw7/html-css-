@@ -1,64 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amazon</title>
-  <link rel="stylesheet" href="../public/css/style.css">
-</head>
-<body>
-  <header>
-    <img src="../public/images/amazon2.png" alt="Logo de Amazon">
-    <ul>
-      <li class="listas_de_encabezado">Ofertas del dia</li>
-      <li class="listas_de_encabezado">Productos</li>
-      <li class="listas_de_encabezado">Cantactos</li>
-      <li class="listas_de_encabezado">vender</li>
-    </ul>
-    <form>
-      <input type="text" placeholder="Buscar">
-    </form>
-    
-    
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/544876a7ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <form>
+        <input type="text" placeholder="Buscar productos, marcas y más…" />
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <div class="header-listas">
+        <img 
+        class="img-logo"
+          src="../public/images/Amazon-Logo-White-PNG-Image.png"
+          alt="Logo de Amazon"
+        />
+        <ul>
+          <li class="listas_de_encabezado"><a href="">Categorias</a></li>
+          <li class="listas_de_encabezado"><a href="">Productos</a></li>
+          <li class="listas_de_encabezado"><a href="">Ofertas del Dia</a></li>
+          <li class="listas_de_encabezado"><a href="">Vender</a></li>
+          <li class="listas_de_encabezado"><a href="">Ayuda</a></li>
+        </ul>
+      </div>
+    </header>
 
-  <main>
+    <main>
+      <article>
+        <img
+          class="img-articulo"
+          src="../public/images/pc-gamer.webp"
+          alt="imagen de una PC Gamer"
+        />
+        <div class="descripcion-articulo">
+          <h2>Lenovo Legion Tower 7i</h2>
+          <p>$2,999</p>
+        </div>
+      </article>
 
-    <article>
-      <img src="../public/images/pc-gamer.webp" alt="imagen de una PC Gamer">
-      <h2>
-        Lenovo Legion Tower 7i
-      </h2>
-      <p>$2,999</p>
-    </article>
+      <article>
+        <img
+          class="img-articulo"
+          src="../public/images/silla-gamer.webp"
+          alt="imagen de una Silla gamer"
+        />
+        <div class="descripcion-articulo">
+          <h2>Silla gaming Corsair T3 Rush</h2>
+          <p>$329</p>
+        </div>
+      </article>
 
-    <article>
-      <img src="../public/images/silla-gamer.webp" alt="imagen de una Silla gamer">
-      <h2>
-        Silla gaming Corsair T3 Rush
-      </h2>
-      <p>$329</p>
-    </article>
+      <article>
+        <img
+          class="img-articulo"
+          src="../public/images/telf-iphone.webp"
+          alt="imagen de un telefono iPhone 14 PRO MAX"
+        />
+        <div class="descripcion-articulo">
+          <h2>Telefono iPhone 14 Pro Max</h2>
+          <p>$891,65</p>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="footer-derechos">
+        <img
+          id="logo-footer"
+          src="../public/images/Amazon-Logo-White-PNG-Image.png"
+          alt=""
+        />
+        <ul>
+          <li class="listas_de_encabezado">Contactos</li>
+          <li class="listas_de_encabezado">Redes sociales</li>
+          <li class="listas_de_encabezado">Condiciones de uso</li>
+        </ul>
+      </div>
 
-    <article>
-      <img src="../public/images/telf-iphone.webp" alt="imagen de un telefono iPhone 14 PRO MAX">
-      <h2>
-        Telefono iPhone 14 Pro Max 
-      </h2>
-      <p>$891,65</p>
-    </article>
-    
-  </main>
-  <footer>
-    <img src="../public/images/amazon2.png" alt="">
-    <ul>
-      <li>Contactos</li>
-      <li>Redes sociales</li>
-      <li>Condiciones de uso</li>
-    </ul>
-    <p>© 1996-2024 Amazon.com, Inc. o sus afiliados</p>
-  </footer>
-
-
-</body>
+      <p class="derechos">© 1996-2024 Amazon.com, Inc. o sus afiliados</p>
+    </footer>
+  </body>
 </html>
